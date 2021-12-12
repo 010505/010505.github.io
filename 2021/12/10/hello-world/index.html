@@ -4,12 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="2012国赛A题, Lan and Ting">
-    <meta name="description" content="在此我将分享我在数学建模国赛的刷题历程，希望能给看到的小伙伴一些启发
-问题重述
-分析附件1中两组评酒员的评价结果有无显著性差异，并确定那个结果更可靠。  
-根据酿酒葡萄的理化指标和葡萄酒的质量对这些酿酒葡萄进行分级。  
-分析酿酒葡萄与葡萄">
+    <meta name="keywords" content="Hello World, Lan and Ting">
+    <meta name="description" content="欢迎来到兰的主页! 点击这里可以知道兰更多的信息. Check Github 。很高兴在此介绍自己。
+自我介绍爱好爱好萌娃，像丸子妹、罗熙、棒骨温温，都是我喜欢的对象。不仅因为她们太可爱，太令人着迷了。还因为婷也很喜欢！给你们看看怪女儿的样">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -21,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>2012国赛A题 | Lan and Ting</title>
+    <title>Hello World | Lan and Ting</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -313,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">2012国赛A题</h1>
+                    <h1 class="description center-align post-title">Hello World</h1>
                 </div>
             </div>
         </div>
@@ -432,9 +429,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E6%97%A5%E5%B8%B8/">
+                                <span class="chip bg-color">日常</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -446,7 +447,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-12-11
+                    2021-12-10
                 </div>
                 
 
@@ -467,29 +468,11 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>在此我将分享我在数学建模国赛的刷题历程，希望能给看到的小伙伴一些启发</p>
-<h3 id="问题重述"><a href="#问题重述" class="headerlink" title="问题重述"></a>问题重述</h3><ol>
-<li>分析附件1中两组评酒员的评价结果有无显著性差异，并确定那个结果更可靠。  </li>
-<li>根据酿酒葡萄的理化指标和葡萄酒的质量对这些酿酒葡萄进行分级。  </li>
-<li>分析酿酒葡萄与葡萄酒的理化指标之间的联系。  </li>
-<li>分析酿酒葡萄和葡萄酒的理化指标对葡萄酒质量的影响，并论证能否用葡萄和葡萄酒的理化指标来评价葡萄酒的质量。<h3 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h3></li>
-</ol>
-<ul>
-<li>针对于问题1需要解决两个问题  </li>
-</ul>
-<ol>
-<li>两组评酒员的评价结果是否具有显著性差异。  </li>
-<li>两组评酒员哪个评价结果更可靠。<br>我的思路：<br>（1） 对于评判评价结果是否具有显著性差异。假设这两个评酒员的评价结果没有太大差异，那么这两个评酒员对同一种酒的评价结果应该是近似相同的。令第一个评酒员的评分为$x$，第二个评酒员的评分为$y$，那么将评分结果画在一个$xoy$平面内应该近似一条直线。所以评判两组评酒员的评价结果是否具有显著性差异可以先假设它们之间具有线性关系，并计算对应的person相关系数通过对应的P假设检验来判断结果是否具有显著性差异。<br>（2） 对于评判那个结果更可靠。需要找到一个指标定量的说明评价员的可靠程度。在这里我选用的是方差，因为如果一个评价员的评价比较可靠，那么他的评分波动应该是比较小的。其次不同评分员对酒的侧重点不同，所以每个评分所给予的权重应该是不同的（这里的权重不是指每个评分指标被事先赋予的权重）。所以我选择变异系数法来计算权重与两个评酒员对每组酒的评分。<br> <font color=red>注意：person相关系数的计算需要数据之间具有线性相关关系，person相关系数的假设检验需要数据服从正态分布。</font>  </li>
-</ol>
-<ul>
-<li><p>针对于问题2需要给葡萄酒进行分级<br>我的思路：这是一个典型的评价类问题，对于评价类问题解决方法很多，关键在于各个指标权重的计算，对于这一问我的所使用的评价模型是“模糊综合评价法”，权重的就计算仍使用“变异系数法”。  </p>
-</li>
-<li><p>针对于第三问分析酿酒葡萄与葡萄酒理化指标之间的相关关系。<br>我的思路是：不应该割裂的看酿酒葡萄的每个指标与葡萄酒理化性质之间的关系。所以我们可以先把酿酒葡萄的所有理化指标看作一个整体，葡萄酒的所有理化性质看作一个整体，分析这两个整体的相关程度，再看整体与它们内部各个指标之间的关系。基于思路，我选择的解决方法是“典型相关性分析”。  </p>
-</li>
-<li><p>针对于第四问分析酿酒葡萄和葡萄酒的理化指标对葡萄酒质量的影响，并论证能否用葡萄和葡萄酒的理化指标来评价葡萄酒的质量。<br>针对与第四问，主要需要解决两个问题：<br>1） 分析酿酒葡萄和葡萄酒的理化指标对葡萄酒质量的影响。<br>2） 论证能否用葡萄和酿酒葡萄的理化指标来评价葡萄酒的质量。<br>对于第四题的第一个问题我们需要回答：什么指标对葡萄酒质量存在影响；什么是正影响，什么是负影响；这些影响程度有多大。<br>对于第四题的第二个问题，是否能用说明我们要对结果进行假设检验。<br>针对于第四问的分析，我使用的模型是“多元线性回归模型”，能够使用这些指标来评价葡萄酒的质量我选用“联合显著性检验”。 </p>
-</li>
-</ul>
-<p>以上就是我的解题思路，希望能够大家带来启发。</p>
+                <p>欢迎来到兰的主页! 点击这里可以知道兰更多的信息. Check <a target="_blank" rel="noopener" href="https://github.com/010505.io/">Github</a> 。很高兴在此介绍自己。</p>
+<h2 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h2><h3 id="爱好"><a href="#爱好" class="headerlink" title="爱好"></a>爱好</h3><p>爱好萌娃，像丸子妹、罗熙、棒骨温温，都是我喜欢的对象。不仅因为她们太可爱，太令人着迷了。还因为婷也很喜欢！<br>给你们看看怪女儿的样子吧！</p>
+<h4 id="丸子"><a href="#丸子" class="headerlink" title="丸子"></a>丸子</h4><p><img src="https://wx1.sinaimg.cn/orj360/005RyErXgy1gx9326c82fj30u00u076g.jpg"><br>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h4 id="棒骨哈温"><a href="#棒骨哈温" class="headerlink" title="棒骨哈温"></a>棒骨哈温</h4><p><img src="https://wx1.sinaimg.cn/orj360/005RyErXgy1gx937kkxf6j30u00u0djx.jpg"></p>
+<h4 id="罗熙"><a href="#罗熙" class="headerlink" title="罗熙"></a>罗熙</h4><p><img src="https://pic1.zhimg.com/80/v2-ba03305694dd2ddd8ff1dd4c743e0f50_720w.jpg?source=1940ef5c"><br>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a><br>怎么样，萌娃是否消除了你一天的疲惫，哈哈这应该就是萌娃的魅力吧！<br>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
                 
             </div>
@@ -516,7 +499,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://010505.github.io/2021/12/11/%E6%88%91%E8%A7%A3%E5%86%B3%E2%80%9C2012%E8%91%A1%E8%90%84%E9%85%92%E7%9A%84%E8%AF%84%E4%BB%B7%E2%80%9D%E7%9A%84%E6%80%9D%E8%B7%AF%E5%8F%8A%E6%B5%81%E7%A8%8B/">https://010505.github.io/2021/12/11/%E6%88%91%E8%A7%A3%E5%86%B3%E2%80%9C2012%E8%91%A1%E8%90%84%E9%85%92%E7%9A%84%E8%AF%84%E4%BB%B7%E2%80%9D%E7%9A%84%E6%80%9D%E8%B7%AF%E5%8F%8A%E6%B5%81%E7%A8%8B/</a>
+                    <a href="https://010505.github.io/2021/12/10/hello-world/">https://010505.github.io/2021/12/10/hello-world/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -553,7 +536,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E6%97%A5%E5%B8%B8/">
+                                    <span class="chip bg-color">日常</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -727,13 +714,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/12/12/%E6%88%91%E8%A7%A3%E5%86%B3%E2%80%9C2018%E9%AB%98%E6%B8%A9%E4%BD%9C%E4%B8%9A%E6%9C%8D%E2%80%9D%E7%9A%84%E6%80%9D%E8%B7%AF%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81/">
+                <a href="/2021/12/11/%E6%88%91%E8%A7%A3%E5%86%B3%E2%80%9C2012%E8%91%A1%E8%90%84%E9%85%92%E7%9A%84%E8%AF%84%E4%BB%B7%E2%80%9D%E7%9A%84%E6%80%9D%E8%B7%AF%E5%8F%8A%E6%B5%81%E7%A8%8B/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="我解决“2018高温作业服”的思路以及代码">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="2012国赛A题">
                         
-                        <span class="card-title">我解决“2018高温作业服”的思路以及代码</span>
+                        <span class="card-title">2012国赛A题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -744,7 +731,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-12
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-11
                         </span>
                         <span class="publish-author">
                             
@@ -755,21 +742,13 @@
                     </div>
                 </div>
                 
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E6%95%B0%E6%A8%A1/">
-                        <span class="chip bg-color">数模</span>
-                    </a>
-                    
-                </div>
-                
             </div>
         </div>
         
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
                 <a href="/2021/12/10/hello-world/">
@@ -799,6 +778,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
