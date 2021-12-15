@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>部门成员学习计划安排</title>
+      <link href="/2021/12/14/%E9%83%A8%E9%97%A8%E6%88%90%E5%91%98%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92%E5%AE%89%E6%8E%92/"/>
+      <url>/2021/12/14/%E9%83%A8%E9%97%A8%E6%88%90%E5%91%98%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92%E5%AE%89%E6%8E%92/</url>
+      
+        <content type="html"><![CDATA[<h2 id="学习方向流程图"><a href="#学习方向流程图" class="headerlink" title="学习方向流程图"></a>学习方向流程图</h2><p><font size=4>对于大一新生的安排如下：<br>（1） 我预计的安排是提供有关资源让他们统一学习一下如何搭建博客，并发布一篇hello word文章。其次对于博客的美化，我的安排是，让他们先独立的自主的尝试，针对于出现的问题进行解答，让他们体验一下独立自主学习的感觉。<br>（2） 其次就让他们根据自己的兴趣爱好进行自主选择。考虑到算法部门结合学科能力较弱，在我的设想里，可以增开一个有关数值分析的学习方向，使用软件为matlab。对于算法和机器学习，由于本人在后面的主要方向为数据分析方向，我可以将我做题的思维过程分享给成员们，并帮助成员，较为浅显的了解一些基本的排序、选择、查找类算法。机器学习理论面的知识由杨再骥同学负责。</font></p><div align=right><img src="https://pic4.zhimg.com/v2-752b324ad13ee73a3e2c03cd2694fd07_r.jpg" width="50%" height="50%"></div><h2 id="我建议的一些需要掌握的知识"><a href="#我建议的一些需要掌握的知识" class="headerlink" title="我建议的一些需要掌握的知识"></a>我建议的一些需要掌握的知识</h2><p><font size=4>对于算法部成员，在学习各自方向之余，我希望她们能够学习掌握一些python爬虫的代码，起码知道爬取的一些流程和方法，这样能够方便学生检验自己的学习成果，对于后面发表论文也有极大的帮助。其次数据清洗是处理很多问题的必备方法，数据清洗的流程很能反映一名学生水平的高低，所以我很希望成员都能具体掌握一些数据清洗的流程，这对大部比赛都有着极其重要的帮助。</font></p><div align=right><img src="https://pic4.zhimg.com/v2-1bfa1c42c2863e6cb7a3a8b8f49e34d3_r.jpg" width="50%" height="50%"></div><h2 id="时间安排表"><a href="#时间安排表" class="headerlink" title="时间安排表"></a>时间安排表</h2><table><thead><tr><th>内容</th><th align="center">具体事项</th><th align="right">预计时间</th></tr></thead><tbody><tr><td>注册GitHub并发表博客</td><td align="center">需要注册自己的GitHub账号，并发布一篇hello word为章到GitHub中</td><td align="right">2021-12-08~ 2021-12-15（为期一周）</td></tr><tr><td>美化博客</td><td align="center">更换博客主题将博客内容进行美化，并把美化的心路历程写一篇文章并发表</td><td align="right">2021-12-16 ~ 2021-12-23（为期一周）</td></tr><tr><td>刷桂航题</td><td align="center">完成谭大佬提供的桂航题库</td><td align="right">2022-1 进行检查</td></tr></tbody></table>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我解决“2018高温作业服”的思路以及代码</title>
       <link href="/2021/12/12/%E6%88%91%E8%A7%A3%E5%86%B3%E2%80%9C2018%E9%AB%98%E6%B8%A9%E4%BD%9C%E4%B8%9A%E6%9C%8D%E2%80%9D%E7%9A%84%E6%80%9D%E8%B7%AF%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81/"/>
       <url>/2021/12/12/%E6%88%91%E8%A7%A3%E5%86%B3%E2%80%9C2018%E9%AB%98%E6%B8%A9%E4%BD%9C%E4%B8%9A%E6%9C%8D%E2%80%9D%E7%9A%84%E6%80%9D%E8%B7%AF%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81/</url>
